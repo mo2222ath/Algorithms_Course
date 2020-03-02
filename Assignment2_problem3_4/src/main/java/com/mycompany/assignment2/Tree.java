@@ -9,10 +9,15 @@ package com.mycompany.assignment2;
  *
  * @author Moaaz
  */
-public class Main {
-    
-    public static void main(String[] args) {
-        
+public class Tree {
+    int data;
+    Tree left, right; 
+   
+    Tree(int item)  
+    { 
+        data = item; 
+        left = right = null;
     }
     
+    Tree() {}
 }
